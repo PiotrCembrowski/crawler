@@ -1,6 +1,6 @@
 import re
 from playwright.sync_api import sync_playwright
-from playwright.stealth import stealth_sync
+from playwright_stealth import stealth_sync
 
 def get_stock_level(url):
     with sync_playwright() as p:
